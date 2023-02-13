@@ -1,0 +1,45 @@
+\begin{table}[htbp] \centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Changes in Search Intensity for Bullying Following Covid-Induced School Closures}
+\label{t_post_reg}
+\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}l*{3}{c}}
+\midrule
+&Bullying&School Bullying&Cyberbullying\\
+&(1)&(2)&(3)\\
+\midrule
+(A) Overall Pre-Post Changes \\
+\cmidrule{1-1} \vspace{-1em} \\
+[1em]
+Post Covid          &      -0.318\sym{***}&      -0.397\sym{***}&      -0.223\sym{**} \\
+                    &     (0.071)         &     (0.068)         &     (0.092)         \\
+[1em]
+\cmidrule{1-1}
+(B) Changes by Specific Time Periods \\
+\cmidrule{1-1} \vspace{-1em} \\
+[1em]
+Post Covid 19--20 SY (3/20--5/20)&      -0.388\sym{***}&      -0.438\sym{***}&      -0.353\sym{***}\\
+                    &     (0.091)         &     (0.131)         &     (0.038)         \\
+[1em]
+Post Covid Summer 2020 (6/20--8/20)&       0.003         &      -0.118         &       0.189\sym{**} \\
+                    &     (0.032)         &     (0.090)         &     (0.089)         \\
+[1em]
+Post Covid 20--21 SY (9/20--2/21)&      -0.439\sym{***}&      -0.515\sym{***}&      -0.361\sym{***}\\
+                    &     (0.067)         &     (0.047)         &     (0.108)         \\
+[1em]
+\cmidrule{1-1}
+(C) Changes by Proportion of Schools Reopened \\
+\cmidrule{1-1} \vspace{-1em} \\
+[1em]
+Proportion of Schools in Person (9/20--2/21)&       0.343\sym{***}&       0.310\sym{***}&       0.412\sym{***}\\
+                    &     (0.102)         &     (0.097)         &     (0.122)         \\
+[1em]
+Post Covid 20--21 SY (9/20--2/21)&      -0.554\sym{***}&      -0.619\sym{***}&      -0.498\sym{***}\\
+                    &     (0.055)         &     (0.042)         &     (0.082)         \\
+[1em]
+                    &                     &                     &                     \\
+N                   &       3,100         &       3,100         &       3,100         \\
+\midrule
+\end{tabular*}
+\begin{tabular*}{1\textwidth}{p{6.4in}}
+\footnotesize Notes: Heteroskedasticity robust standard errors clustered by state and month are in parentheses (* p$<$.10 ** p$<$.05 *** p$<$.01). Each column in each panel regresses the logarithm of excess search intensity for a specific topic on a set of indicators for various post-Covid time periods. Panel A includes a single indicator for months on or after March 2020, based on Equation 3. Panel B includes a set of three indicators for three distinct post-Covid time periods, based on Equation 4: (1) the end of the spring 2020 semester (March 2020 through May 2020), (2) the summer period in 2020 (June 2020 through August 2020), and (3) the beginning of the 2020--2021 school year (September 2020 through February 2021). Panel C is based on Equation 5 and interacts the 2020--2021 school year indicator with the percentage of schools that are offering full-time in-person (i.e., traditional) instruction. This measure is based on data from Burbio and is collected at the state by month level from     September 2020 through February 2021. All models include state fixed effects and the outcome variable in all models is the excess logarithm of search intensity (as defined in Equation 1). The sample used in all regression models contains search data from January 2016 through February 2021.\end{tabular*}
+\end{table}
